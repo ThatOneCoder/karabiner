@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<root>
+  
+  <!-- HandsFriendly IJKL [START] -->
+
+  <item>
+    <name>Caps Lock + I = Up</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.diamond_up</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::I,
+      ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_UP
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock + K = Down</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.diamond_down</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::K,
+      ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_DOWN
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock + J = Left</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.diamond_left</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::J,
+      ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_LEFT
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock + L = Right</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.diamond_right</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::L,
+      ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_RIGHT
+    </autogen>
+  </item>
+
+  <!-- Additional Caps + Key Mappings -->
+  <item>
+    <name>Caps Lock New Tab</name>
+    <appendix>Capslock_New_Tab</appendix>
+    <identifier>private.caps_new_tab</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::T, ModifierFlag::CONTROL_L,
+      KeyCode::T, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+
+  <item>
+    <name>Caps Lock Find</name>
+    <appendix>Capslock_Find</appendix>
+    <identifier>private.caps_find</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::F, ModifierFlag::CONTROL_L,
+      KeyCode::F, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+
+  <!-- Word Jump -->
+  <item>
+    <name>Caps Lock + H = Jump to beginning of current word</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.vim_shift_left</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::H,
+      ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_LEFT,
+      ModifierFlag::OPTION_R
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock + ; = Jump to end of current word</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.vim_shift_right</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::SEMICOLON,
+      ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_RIGHT,
+      ModifierFlag::OPTION_R
+    </autogen>
+  </item>
+
+
+  <!-- Front/End of line jump -->
+  <item>
+    <name>Caps Lock + U = Jump to front of line</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.vim_front_of_line</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::U,
+      ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_LEFT,
+      ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock + O = Jump to end of line</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.vim_end_of_line</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      KeyCode::O,
+      ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_RIGHT,
+      ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  
+  
+<!-- HandsFriendly IJKL [END] -->
+
+<!-- Capslock Combo to Command Combo [START] -->
+  <item>
+    <name>Caps Lock Copy</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_copy</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::C, ModifierFlag::CONTROL_L,
+      KeyCode::C, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock Save</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_save</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::S, ModifierFlag::CONTROL_L,
+      KeyCode::S, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock Cut</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_cut</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::X, ModifierFlag::CONTROL_L,
+      KeyCode::X, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock Paste</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_paste</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::V, ModifierFlag::CONTROL_L,
+      KeyCode::V, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock Select All</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_select_all</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::A, ModifierFlag::CONTROL_L,
+      KeyCode::A, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock Undo</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_undo</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::Z, ModifierFlag::CONTROL_L,
+      KeyCode::Z, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock Redo</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_redo</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::Y, ModifierFlag::CONTROL_L,
+      KeyCode::Y, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock Forward Delete</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_f_delete</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::SPACE, ModifierFlag::CONTROL_L,
+      KeyCode::DELETE, ModifierFlag::FN
+    </autogen>
+  </item>
+  <item>
+    <name>F4 - Launchpad Shortcut</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.f4_launchpad</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::F4, ModifierFlag::NONE,
+      KeyCode::LAUNCHPAD
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock Last Window</name>
+    <appendix>Capslock_to_Command</appendix>
+    <identifier>private.caps_last_window</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::TAB, ModifierFlag::CONTROL_L,
+      KeyCode::TAB, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+
+ <!-- Remapped Keys -->
+  <item>
+    <name>Caps Lock Spotlight</name>
+    <appendix>Remapped_Key</appendix>
+    <identifier>private.caps_spotlight</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::BACKQUOTE, ModifierFlag::NONE,
+      KeyCode::SPACE, ModifierFlag::COMMAND_L
+    </autogen>
+  </item>
+  
+  <!-- <item>
+    <name>CONTROL_L to Command_R + L</name>
+    <appendix>CONTROL_L_to_CommandR_L</appendix>
+    <identifier>private.CONTROL_L_to_commandr_l</identifier>
+    <autogen>
+      __KeyToKey__
+      KeyCode::L, ModifierFlag::CONTROL_L,
+      KeyCode::L, ModifierFlag::COMMAND_R
+    </autogen>
+  </item> -->
+<!-- Capslock Combo to Command Combo [END] -->
+
+
+<!-- Text Selection [START] -->
+<!--
+  <item>
+    <name>Caps Lock + Command + H = Select to beginning of current word</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.vim_shift_CONTROL_Left</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      
+      KeyCode::H,
+      ModifierFlag::CONTROL_L | ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_LEFT,
+      ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L 
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock + Command + ; = Select to end of current word</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.vim_shift_command_rigth</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      
+      KeyCode::SEMICOLON,
+      ModifierFlag::CONTROL_L | ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_RIGHT,
+      ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L 
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock + Command + k = Select betweeen the cursor on the current line and the next line</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.vim_shift_command_down</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      
+      KeyCode::K,
+      ModifierFlag::CONTROL_L | ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_DOWN,
+      ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L 
+    </autogen>
+  </item>
+  <item>
+    <name>Caps Lock + Command + i = Select betweeen the cursor on the current line and the previous line</name>
+    <appendix>Diamond Keys Style</appendix>
+    <identifier>private.vim_shift_command_up</identifier>
+    <autogen>
+      --KeyOverlaidModifier--
+      
+      KeyCode::I,
+      ModifierFlag::CONTROL_L | ModifierFlag::CONTROL_L,
+      KeyCode::CURSOR_UP,
+      ModifierFlag::SHIFT_L | ModifierFlag::CONTROL_L 
+    </autogen>
+  </item>
+  <!-- Text Selection [END] -->
+  
+</root>
